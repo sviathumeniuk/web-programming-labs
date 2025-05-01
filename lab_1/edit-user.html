@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit User - Car Rental Service</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>Edit User</h1>
+    <a href="users.html">Cancel</a>
+  </header>
+
+  <main>
+    <section class="edit-user-form">
+      <form action="users.html" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" value="passenger1" required>
+
+        <label for="role">Role</label>
+        <select id="role" name="role" required>
+          <option value="admin">Admin</option>
+          <option value="passenger" selected>Passenger</option>
+        </select>
+
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Car Rental Service</p>
+  </footer>
+</body>
+</html>

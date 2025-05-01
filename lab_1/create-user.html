@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create User - Car Rental Service</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>Create New User</h1>
+    <a href="users.html">Cancel</a>
+  </header>
+
+  <main>
+    <section class="create-user-form">
+      <form action="users.html" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <label for="role">Role</label>
+        <select id="role" name="role" required>
+          <option value="admin">Admin</option>
+          <option value="passenger">Passenger</option>
+        </select>
+
+        <button type="submit">OK</button>
+        <a href="users.html">Cancel</a>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Car Rental Service</p>
+  </footer>
+</body>
+</html>

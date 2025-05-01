@@ -1,0 +1,21 @@
+button, .button, a.button {
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $primary-dark;
+  }
+
+  &:disabled {
+    background-color: $button-disabled-bg;
+    cursor: not-allowed;
+  }
+}

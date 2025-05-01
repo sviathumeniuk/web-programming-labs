@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  color: $text-color;
+  background-color: $background-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: $header-footer-bg;
+  color: $header-footer-text;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 1rem;
+  
+  a {
+    color: $header-footer-text;
+    margin: 0 10px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}

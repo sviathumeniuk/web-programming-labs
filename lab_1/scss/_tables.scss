@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  thead {
+    background-color: $table-header-bg;
+    color: #fff;
+  }
+
+  th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tbody tr:hover {
+    background-color: $table-hover-bg;
+  }
+
+  td button, td a {
+    margin-right: 0.5rem;
+  }
+}

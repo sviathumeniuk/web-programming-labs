@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users - Car Rental Service</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="cars.html">Cars</a>
+      <a href="manage-cars.html">Manage Cars</a>
+      <a href="index.html">Logout</a>
+    </nav>
+    <h1>Users</h1>
+  </header>
+
+  <main>
+    <section class="users-list">
+      <button onclick="window.location.href='create-user.html'">Create New User</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Role</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>admin1</td>
+            <td>Admin</td>
+            <td>
+              <a href="user-details.html">View</a>
+              <a href="edit-user.html">Edit</a>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>passenger1</td>
+            <td>Passenger</td>
+            <td>
+              <a href="user-details.html">View</a>
+              <a href="edit-user.html">Edit</a>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Car Rental Service</p>
+  </footer>
+</body>
+</html>
